@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bin2Dec</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <div data-operation="bin-to-dec" id="app" class="container">
+      <div class="header">
+        <h1>Bin2Dec</h1>
+        <p>
+          Binary to Decimal Converter
+        </p>
+      </div>
+
+      <div class="target">
+        <span>Binary</span>
+        <input type="text" name="input" id="target" />
+      </div>
+
+      <div class="switch-container">
+        <button id="switch">
+          <span>&rlhar;</span>
+        </button>
+      </div>
+
+      <div class="converted">
+        <span>Decimal</span>
+        <input type="text" id="display" disabled />
+      </div>
+
+      <div class="convert">
+        <button id="convert">Convert</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
