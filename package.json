@@ -1,0 +1,25 @@
+{
+  "name": "Bin2Dec-App",
+  "version": "1.0.0",
+  "description": "1. HTML Layout",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rustydcoder/bin2dec.git"
+  },
+  "keywords": [],
+  "author": "Rustydcoder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rustydcoder/bin2dec/issues"
+  },
+  "homepage": "https://github.com/rustydcoder/bin2dec#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-transform-arrow-functions": "^7.10.4"
+  }
+}
